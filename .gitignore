@@ -1,0 +1,16 @@
+/music.Api/obj
+/music.Api/bin
+/music.Api/wwwroot
+.vscode
+/music.Domain/bin
+/music.Domain/obj
+.vscode
+/music.Services/bin
+/music.Services/obj
+
+/music.Infrastructure/music.Infrastructure.Common/obj
+/music.Infrastructure/music.Infrastructure.Common/bin
+/music.Api/wwwroot
+/music.Infrastructure/music.Infrastructure.Data/obj
+/music.Infrastructure/music.Infrastructure.Data/Migrations
+/music.Infrastructure/music.Infrastructure.Data/bin

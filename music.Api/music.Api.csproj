@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    
+    <PackageReference Include="fluentvalidation.aspnetcore" Version="9.4.0" />
+    
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="swashbuckle.aspnetcore" Version="5.6.3" />
+    <PackageReference Include="ZarinpalSandbox" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\music.Infrastructure\music.Infrastructure.Data\music.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\music.Infrastructure\music.Infrastructure.Common\music.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\music.Services\music.Services.csproj" />
+  </ItemGroup>
+
+</Project>
