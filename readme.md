@@ -1,4 +1,4 @@
-# Music Apy With Payment For RealWorld scenarios
+# Music Api With Payment For RealWorld scenarios
 ### please note :
 1. this project does not completed , why? because..
 * i should add integration test(i dont test app yet)
