@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "music.Infrastructure.Data",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "music.services", "music.services\music.services.csproj", "{ADE5DC24-B124-472C-B9CE-38E0FC03DF60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "music.Test", "music.Test\music.Test.csproj", "{5CC37166-B408-4CCB-8431-2E2B5FE055D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,18 @@ Global
 		{ADE5DC24-B124-472C-B9CE-38E0FC03DF60}.Release|x64.Build.0 = Release|Any CPU
 		{ADE5DC24-B124-472C-B9CE-38E0FC03DF60}.Release|x86.ActiveCfg = Release|Any CPU
 		{ADE5DC24-B124-472C-B9CE-38E0FC03DF60}.Release|x86.Build.0 = Release|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Debug|x64.Build.0 = Debug|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Release|x64.ActiveCfg = Release|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Release|x64.Build.0 = Release|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5CC37166-B408-4CCB-8431-2E2B5FE055D8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{21501364-69A0-4056-AC09-6806849E1861} = {FAA38872-AFD0-4364-A537-02EB10B7A67A}

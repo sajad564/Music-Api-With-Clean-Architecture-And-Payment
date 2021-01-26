@@ -8,6 +8,9 @@
 /music.Services/bin
 /music.Services/obj
 
+/music.Test/bin
+/music.Test/obj
+
 /music.Infrastructure/music.Infrastructure.Common/obj
 /music.Infrastructure/music.Infrastructure.Common/bin
 /music.Api/wwwroot

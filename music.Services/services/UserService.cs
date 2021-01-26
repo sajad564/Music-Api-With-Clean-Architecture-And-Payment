@@ -71,8 +71,9 @@ namespace music.Services.services
             var findUser = await uow.UserRepo.GetUserByUsernameAsync(Username);
             if (findUser == null)
                 return Error<Token>.ToError(ErrorMessages.NotFoundUser);
-            if(!findUser.EmailConfirmed)
-                return Error<Token>.ToError(ErrorMessages.EmailNotConfirmed); 
+            // this section will be comment for testing
+            // if(!findUser.EmailConfirmed)
+            //     return Error<Token>.ToError(ErrorMessages.EmailNotConfirmed); 
             bool IsValidPassword = VerifyHash(password, findUser.PasswordHash);
             if (!IsValidPassword)
                 return Error<Token>.ToError(ErrorMessages.NotFoundUser);
