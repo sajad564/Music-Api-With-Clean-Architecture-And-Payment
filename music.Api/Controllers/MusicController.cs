@@ -24,7 +24,7 @@ namespace music.Api.Controllers
             this.musicService = musicService;
 
         }
-        [Authorize("signer,admin")]
+        [Authorize(Roles = "signer,admin")]
         [HttpPost]
         public async Task<Response<bool>> AddMusic(AddMusicDto dto)
         {
@@ -46,7 +46,7 @@ namespace music.Api.Controllers
             return CustomResponse.Ok<MusicDto>(musicDto) ; 
         
         }
-        [Authorize("signer,admin")]
+        [Authorize(Roles = "signer,admin")]
         [HttpDelete("{Id}")]
         public async Task<Response<bool>> RemoveMusic(string Id)
         {

@@ -21,8 +21,8 @@ namespace music.Api.Controllers
             this.albumService = albumService;
 
         }
-        [Authorize("signer,admin")]
-        [HttpPost]
+        [Authorize(Roles="signer,admin")]
+        [HttpPost("")]
         public async Task<Response<bool>> AddAlbum(AddAlbumDto dto)
         {
             var newAlbum = mapper.Map<Album>(dto) ; 
@@ -32,7 +32,7 @@ namespace music.Api.Controllers
 
             return CustomResponse.Ok() ;
         }
-        [Authorize("admin,signer")]
+        [Authorize(Roles="admin,signer")]
         [HttpDelete("{Id}")]
         public async Task<Response<bool>> RemoveAlbum(string Id)
         {

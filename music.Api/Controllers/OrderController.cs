@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using music.Api.Common;
 using music.Api.Dtos;
@@ -23,6 +24,7 @@ namespace music.Api.Controllers
             this.mapper = mapper;
 
         }
+        [Authorize]
         [HttpGet("{Id}")]
         public async Task<Response<OrderDto>> GetOrderById(string Id)
         {
