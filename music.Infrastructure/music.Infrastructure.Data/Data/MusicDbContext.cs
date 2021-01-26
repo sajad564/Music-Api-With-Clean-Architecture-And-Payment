@@ -23,6 +23,7 @@ namespace music.Infrastructure.Data.Data
             builder.ApplyConfiguration(new FollowerRelationConfiguration()) ; 
             builder.ApplyConfiguration(new MusicConfiguration()) ; 
             builder.ApplyConfiguration(new UserConfiguration()) ; 
+            builder.SeedData() ;
 
         }
     }
